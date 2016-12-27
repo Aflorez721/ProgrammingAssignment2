@@ -1,5 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is my solution to one of the programming assignments from the R Programming course on coursera
+
+## When running time consuming computations, it’s good to cache the results so that you can look them 
+## up later instead of computing them again. For example, maxtrix inversion is usually costly, especially
+## when running inside of a loop. 
+
+
+## The following functions can compute and cache the inverse of a matrix.
 
 ## makeCacheMatrix is a function that creates a special “matrix” object that can cache its inverse
 
